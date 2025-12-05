@@ -1,0 +1,20 @@
+# Ignore virtual environment directories
+.venv/
+venv/
+**/venv/
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore specific file types or directories if necessary, but be precise
+# For example, to ignore ALL .json files:
+# *.json
+# To ignore specific JSON files:
+memories.json
+# config-secret.json
+
+# Other common ignores
+__pycache__/
+*.pyc
+*.log
